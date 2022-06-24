@@ -74,3 +74,39 @@
     padding: 50px 50px 30px 50px;
     background-color: white;
 }
+@media (max-width: 920px) {
+    .button{
+        padding: 20px;
+        margin-left: 0;
+    }
+    .top{
+        padding-bottom: 20px;
+        background: linear-gradient(270deg,#F9CEEE 10%,#6A67CE);
+    }
+    .main{
+        padding: 20px;
+    }
+    .text{
+        margin-top: 0;
+        background: -webkit-linear-gradient(0deg,#6A67CE,#F9CEEE 45%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .footer{
+        padding-top: 0;
+    }
+    .icon{
+        width: 260px;
+        height: 260px;
+    }
+    .name{
+        padding-top: 0;
+        font-size: 45px;
+        -webkit-text-stroke: 0.2mm #F9CEEE;
+    }
+    .main > p {
+        font-weight: bold;
+        -webkit-text-stroke: 0.1mm #FFF;
+    }
+
+}
