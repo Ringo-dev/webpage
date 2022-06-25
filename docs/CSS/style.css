@@ -106,7 +106,6 @@
     }
     .main > p {
         font-weight: bold;
-        -webkit-text-stroke: 0.1mm #FFF;
     }
 
 }
