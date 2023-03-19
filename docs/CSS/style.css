@@ -17,15 +17,16 @@
     text-align: center;
     font-size: 50px;
     color: #6A67CE;
-    -webkit-text-stroke: 0.3mm #F9CEEE;
+    -webkit-text-stroke: 0.3mm white;
 }
 .wlc{
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 0;
     opacity: 60%;
     color: #6A67CE;
     font-weight: bold;
+    -webkit-text-stroke: 0.2mm white;
 }
 .list{
     display: flex;
@@ -51,6 +52,12 @@
     opacity: 30%;
 }
 .text{
+    background: -webkit-linear-gradient(0deg,#6A67CE,#F9CEEE 170%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 5px 0;
+}
+.aboutme{
     background: -webkit-linear-gradient(0deg,#6A67CE,#F9CEEE 15%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -74,6 +81,25 @@
     padding: 50px 50px 30px 50px;
     background-color: white;
 }
+.aboutme-image{
+    vertical-align: sub;
+    padding-top: 10px;
+}
+.works-image{
+    width: 36px;
+    height: 36px;
+}
+.skills-certification-image{
+    width: 32px;
+    height: 32px;
+}
+.studying-image{
+    width: 34px;
+    height: 34px;
+}
+p{
+    margin: 10px;
+}
 @media (max-width: 920px) {
     .button{
         padding: 20px;
@@ -88,7 +114,13 @@
     }
     .text{
         margin-top: 0;
-        background: -webkit-linear-gradient(0deg,#6A67CE,#F9CEEE 45%);
+        background: -webkit-linear-gradient(0deg,#6A67CE,#F9CEEE 150%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .aboutme{
+        margin-top: 0;
+        background: -webkit-linear-gradient(0deg,#6A67CE,#F9CEEE 70%);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
@@ -102,10 +134,12 @@
     .name{
         padding-top: 0;
         font-size: 45px;
-        -webkit-text-stroke: 0.2mm #F9CEEE;
+        -webkit-text-stroke: 0.3mm white;
     }
     .main > p {
         font-weight: bold;
     }
-
+    .wlc{
+        -webkit-text-stroke: 0.1mm white;
+    }
 }
